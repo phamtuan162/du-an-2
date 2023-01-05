@@ -605,3 +605,77 @@ blockquote {
   background: #ffb900;
   cursor: default;
 }
+/* Footer */
+.footer {
+  padding: 96px 0 28px;
+  background: #2e2100;
+}
+.footer .row {
+  display: flex;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+.footer .row .column {
+  width: 21.6%;
+}
+.footer .row .column:first-child {
+  width: 35%;
+}
+.footer .desc {
+  max-width: 267px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+  margin: 18px 0;
+}
+.footer .social {
+  display: flex;
+  gap: 18px;
+}
+.footer .social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  width: 15px;
+}
+.footer .tittle {
+  display: inline-block;
+  border-bottom: 1px solid #59554b;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: var(--white--color);
+  padding: 0 48px 14px 0;
+}
+.footer .list {
+  margin-top: 28px;
+}
+.footer .list li a {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+.footer .list li:last-child a {
+  margin-bottom: 0;
+}
+.footer strong {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: var(--white--color);
+}
+.footer .copyright {
+  margin-top: 28px;
+}
+.footer .copyright p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  text-align: center;
+  color: #807d74;
+}
